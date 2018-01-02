@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		831F7D681E96371000A7139C /* ToneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831F7D671E96371000A7139C /* ToneView.swift */; };
+		834D7C421E8F43CF0078424C /* CGContextObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7C3E1E8F43CF0078424C /* CGContextObject.swift */; };
+		834D7C431E8F43CF0078424C /* RedGradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7C3F1E8F43CF0078424C /* RedGradientColor.swift */; };
+		834D7C441E8F43CF0078424C /* GradientColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7C401E8F43CF0078424C /* GradientColor.swift */; };
+		834D7C451E8F43CF0078424C /* RGBColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834D7C411E8F43CF0078424C /* RGBColor.swift */; };
+		834F871B1E94CDB7002D0869 /* ledOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 834F87191E94CDB7002D0869 /* ledOff.png */; };
+		834F871C1E94CDB8002D0869 /* ledOn.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 834F871A1E94CDB7002D0869 /* ledOn.jpeg */; };
 		8352CCF51E62E605005885FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CCF41E62E605005885FD /* AppDelegate.swift */; };
 		8352CCF71E62E605005885FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CCF61E62E605005885FD /* ViewController.swift */; };
 		8352CCFA1E62E605005885FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8352CCF81E62E605005885FD /* Main.storyboard */; };
 		8352CCFC1E62E605005885FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8352CCFB1E62E605005885FD /* Assets.xcassets */; };
 		8352CCFF1E62E605005885FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8352CCFD1E62E605005885FD /* LaunchScreen.storyboard */; };
+		8352CD071E62EACB005885FD /* BluDevicesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CD061E62EACB005885FD /* BluDevicesTableViewController.swift */; };
+		8352CD0A1E62EB0A005885FD /* CellDevicesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CD081E62EB0A005885FD /* CellDevicesList.swift */; };
+		8352CD0D1E62ECFB005885FD /* BLEUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CD0C1E62ECFB005885FD /* BLEUtility.swift */; };
+		8352CD111E62F629005885FD /* DFBlunoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CD101E62F629005885FD /* DFBlunoManager.swift */; };
+		8352CD131E62F7CE005885FD /* DFBlunoDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8352CD121E62F7CE005885FD /* DFBlunoDevice.swift */; };
+		837C68861E86B9E3002D1F2A /* SilderClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837C68851E86B9E3002D1F2A /* SilderClass.swift */; };
+		83AAFF751E926F740051E557 /* BackOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF6F1E926F740051E557 /* BackOff.png */; };
+		83AAFF761E926F740051E557 /* BackOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF701E926F740051E557 /* BackOn.png */; };
+		83AAFF771E926F740051E557 /* LeftOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF711E926F740051E557 /* LeftOff.png */; };
+		83AAFF781E926F740051E557 /* LeftOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF721E926F740051E557 /* LeftOn.png */; };
+		83AAFF791E926F740051E557 /* RightOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF731E926F740051E557 /* RightOff.png */; };
+		83AAFF7A1E926F740051E557 /* RightOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AAFF741E926F740051E557 /* RightOn.png */; };
+		83AAFF7C1E9280A80051E557 /* wendu_yuan2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFF7B1E9280A80051E557 /* wendu_yuan2.swift */; };
+		83AAFF7E1E9281390051E557 /* yuan2_sc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFF7D1E9281390051E557 /* yuan2_sc.swift */; };
+		83AAFF801E9282560051E557 /* yuan2_zj.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFF7F1E9282560051E557 /* yuan2_zj.swift */; };
+		83AAFF831E9283010051E557 /* led_jishu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AAFF821E9283010051E557 /* led_jishu.swift */; };
+		83AD0EB51E8D474000CF8A30 /* CarInformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AD0EB41E8D474000CF8A30 /* CarInformationView.swift */; };
+		83AEAAE11E63052200A810B5 /* BLEDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AEAAE01E63052200A810B5 /* BLEDevice.swift */; };
+		83E4AAC51E8BFC2F00F09861 /* CarClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E4AAC41E8BFC2F00F09861 /* CarClass.swift */; };
+		83E632FC1E83A5D9004D2692 /* SquareClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E632FB1E83A5D9004D2692 /* SquareClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		831F7D671E96371000A7139C /* ToneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneView.swift; sourceTree = "<group>"; };
+		834D7C3E1E8F43CF0078424C /* CGContextObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGContextObject.swift; sourceTree = "<group>"; };
+		834D7C3F1E8F43CF0078424C /* RedGradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedGradientColor.swift; sourceTree = "<group>"; };
+		834D7C401E8F43CF0078424C /* GradientColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientColor.swift; sourceTree = "<group>"; };
+		834D7C411E8F43CF0078424C /* RGBColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RGBColor.swift; sourceTree = "<group>"; };
+		834F87191E94CDB7002D0869 /* ledOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ledOff.png; sourceTree = "<group>"; };
+		834F871A1E94CDB7002D0869 /* ledOn.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ledOn.jpeg; sourceTree = "<group>"; };
 		8352CCF11E62E605005885FD /* BlueTest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueTest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8352CCF41E62E605005885FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8352CCF61E62E605005885FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +56,26 @@
 		8352CCFB1E62E605005885FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8352CCFE1E62E605005885FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8352CD001E62E605005885FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8352CD061E62EACB005885FD /* BluDevicesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluDevicesTableViewController.swift; sourceTree = "<group>"; };
+		8352CD081E62EB0A005885FD /* CellDevicesList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDevicesList.swift; sourceTree = "<group>"; };
+		8352CD0C1E62ECFB005885FD /* BLEUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEUtility.swift; sourceTree = "<group>"; };
+		8352CD101E62F629005885FD /* DFBlunoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFBlunoManager.swift; sourceTree = "<group>"; };
+		8352CD121E62F7CE005885FD /* DFBlunoDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DFBlunoDevice.swift; sourceTree = "<group>"; };
+		837C68851E86B9E3002D1F2A /* SilderClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SilderClass.swift; sourceTree = "<group>"; };
+		83AAFF6F1E926F740051E557 /* BackOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackOff.png; sourceTree = "<group>"; };
+		83AAFF701E926F740051E557 /* BackOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BackOn.png; sourceTree = "<group>"; };
+		83AAFF711E926F740051E557 /* LeftOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftOff.png; sourceTree = "<group>"; };
+		83AAFF721E926F740051E557 /* LeftOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LeftOn.png; sourceTree = "<group>"; };
+		83AAFF731E926F740051E557 /* RightOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightOff.png; sourceTree = "<group>"; };
+		83AAFF741E926F740051E557 /* RightOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RightOn.png; sourceTree = "<group>"; };
+		83AAFF7B1E9280A80051E557 /* wendu_yuan2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = wendu_yuan2.swift; sourceTree = "<group>"; };
+		83AAFF7D1E9281390051E557 /* yuan2_sc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yuan2_sc.swift; sourceTree = "<group>"; };
+		83AAFF7F1E9282560051E557 /* yuan2_zj.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yuan2_zj.swift; sourceTree = "<group>"; };
+		83AAFF821E9283010051E557 /* led_jishu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = led_jishu.swift; sourceTree = "<group>"; };
+		83AD0EB41E8D474000CF8A30 /* CarInformationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarInformationView.swift; sourceTree = "<group>"; };
+		83AEAAE01E63052200A810B5 /* BLEDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEDevice.swift; sourceTree = "<group>"; };
+		83E4AAC41E8BFC2F00F09861 /* CarClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarClass.swift; sourceTree = "<group>"; };
+		83E632FB1E83A5D9004D2692 /* SquareClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +109,64 @@
 			isa = PBXGroup;
 			children = (
 				8352CCF41E62E605005885FD /* AppDelegate.swift */,
+				8352CD081E62EB0A005885FD /* CellDevicesList.swift */,
+				8352CD0C1E62ECFB005885FD /* BLEUtility.swift */,
+				8352CD061E62EACB005885FD /* BluDevicesTableViewController.swift */,
 				8352CCF61E62E605005885FD /* ViewController.swift */,
 				8352CCF81E62E605005885FD /* Main.storyboard */,
 				8352CCFB1E62E605005885FD /* Assets.xcassets */,
+				83AAFF6E1E926F650051E557 /* Image */,
 				8352CCFD1E62E605005885FD /* LaunchScreen.storyboard */,
 				8352CD001E62E605005885FD /* Info.plist */,
+				8352CD101E62F629005885FD /* DFBlunoManager.swift */,
+				83E632FB1E83A5D9004D2692 /* SquareClass.swift */,
+				8352CD121E62F7CE005885FD /* DFBlunoDevice.swift */,
+				83AEAAE01E63052200A810B5 /* BLEDevice.swift */,
+				83AD0EB61E8D474C00CF8A30 /* Car */,
 			);
 			path = BlueTest2;
+			sourceTree = "<group>";
+		};
+		83AAFF6E1E926F650051E557 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				834F87191E94CDB7002D0869 /* ledOff.png */,
+				834F871A1E94CDB7002D0869 /* ledOn.jpeg */,
+				83AAFF6F1E926F740051E557 /* BackOff.png */,
+				83AAFF701E926F740051E557 /* BackOn.png */,
+				83AAFF711E926F740051E557 /* LeftOff.png */,
+				83AAFF721E926F740051E557 /* LeftOn.png */,
+				83AAFF731E926F740051E557 /* RightOff.png */,
+				83AAFF741E926F740051E557 /* RightOn.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		83AAFF811E92827F0051E557 /* yuan */ = {
+			isa = PBXGroup;
+			children = (
+				83AAFF7B1E9280A80051E557 /* wendu_yuan2.swift */,
+				83AAFF821E9283010051E557 /* led_jishu.swift */,
+				83AAFF7D1E9281390051E557 /* yuan2_sc.swift */,
+				83AAFF7F1E9282560051E557 /* yuan2_zj.swift */,
+			);
+			name = yuan;
+			sourceTree = "<group>";
+		};
+		83AD0EB61E8D474C00CF8A30 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				837C68851E86B9E3002D1F2A /* SilderClass.swift */,
+				83E4AAC41E8BFC2F00F09861 /* CarClass.swift */,
+				83AD0EB41E8D474000CF8A30 /* CarInformationView.swift */,
+				834D7C3E1E8F43CF0078424C /* CGContextObject.swift */,
+				831F7D671E96371000A7139C /* ToneView.swift */,
+				834D7C3F1E8F43CF0078424C /* RedGradientColor.swift */,
+				834D7C401E8F43CF0078424C /* GradientColor.swift */,
+				834D7C411E8F43CF0078424C /* RGBColor.swift */,
+				83AAFF811E92827F0051E557 /* yuan */,
+			);
+			name = Car;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +201,8 @@
 				TargetAttributes = {
 					8352CCF01E62E605005885FD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = P93UFXAUK2;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,8 +230,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AAFF791E926F740051E557 /* RightOff.png in Resources */,
+				834F871B1E94CDB7002D0869 /* ledOff.png in Resources */,
 				8352CCFF1E62E605005885FD /* LaunchScreen.storyboard in Resources */,
+				83AAFF781E926F740051E557 /* LeftOn.png in Resources */,
+				83AAFF7A1E926F740051E557 /* RightOn.png in Resources */,
 				8352CCFC1E62E605005885FD /* Assets.xcassets in Resources */,
+				83AAFF751E926F740051E557 /* BackOff.png in Resources */,
+				83AAFF761E926F740051E557 /* BackOn.png in Resources */,
+				83AAFF771E926F740051E557 /* LeftOff.png in Resources */,
+				834F871C1E94CDB8002D0869 /* ledOn.jpeg in Resources */,
 				8352CCFA1E62E605005885FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +251,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				831F7D681E96371000A7139C /* ToneView.swift in Sources */,
+				8352CD111E62F629005885FD /* DFBlunoManager.swift in Sources */,
+				83AAFF801E9282560051E557 /* yuan2_zj.swift in Sources */,
 				8352CCF71E62E605005885FD /* ViewController.swift in Sources */,
+				8352CD071E62EACB005885FD /* BluDevicesTableViewController.swift in Sources */,
+				834D7C451E8F43CF0078424C /* RGBColor.swift in Sources */,
+				8352CD0D1E62ECFB005885FD /* BLEUtility.swift in Sources */,
+				834D7C441E8F43CF0078424C /* GradientColor.swift in Sources */,
+				83AAFF7C1E9280A80051E557 /* wendu_yuan2.swift in Sources */,
 				8352CCF51E62E605005885FD /* AppDelegate.swift in Sources */,
+				834D7C421E8F43CF0078424C /* CGContextObject.swift in Sources */,
+				837C68861E86B9E3002D1F2A /* SilderClass.swift in Sources */,
+				83E4AAC51E8BFC2F00F09861 /* CarClass.swift in Sources */,
+				83AEAAE11E63052200A810B5 /* BLEDevice.swift in Sources */,
+				83AAFF831E9283010051E557 /* led_jishu.swift in Sources */,
+				8352CD0A1E62EB0A005885FD /* CellDevicesList.swift in Sources */,
+				8352CD131E62F7CE005885FD /* DFBlunoDevice.swift in Sources */,
+				83AD0EB51E8D474000CF8A30 /* CarInformationView.swift in Sources */,
+				83AAFF7E1E9281390051E557 /* yuan2_sc.swift in Sources */,
+				83E632FC1E83A5D9004D2692 /* SquareClass.swift in Sources */,
+				834D7C431E8F43CF0078424C /* RedGradientColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,11 +394,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P93UFXAUK2;
 				INFOPLIST_FILE = BlueTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WangKai.BlueTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -272,11 +411,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = P93UFXAUK2;
 				INFOPLIST_FILE = BlueTest2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = WangKai.BlueTest2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -299,6 +442,7 @@
 				8352CD051E62E605005885FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
